@@ -13,6 +13,7 @@ the data then is saved as data table
 library("data.table")
 library("ggplot2")
 
+
 unzip("activity.zip")
 dataACT<-read.table("activity.csv", sep=",",header=TRUE)
 DT1<-setDT(dataACT)
